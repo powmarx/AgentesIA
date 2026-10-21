@@ -1,0 +1,4 @@
+[theme]
+# Blue accent (multiselect tags, buttons, sliders) instead of Streamlit's default red,
+# so selected items do not look like errors and match the reasoning-level colors.
+primaryColor = "#2171B5"

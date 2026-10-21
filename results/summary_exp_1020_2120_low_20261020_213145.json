@@ -1,0 +1,483 @@
+{
+  "label": "exp_1020_2120",
+  "timestamp": "2026-10-20T21:31:45",
+  "provider": "google",
+  "model": "gemini-3-flash-preview",
+  "reasoning": "low",
+  "wait_seconds": 60.0,
+  "tasks_solved": 3,
+  "tasks_total": 5,
+  "input_tokens": 5342,
+  "reasoning_tokens": 5125,
+  "answer_tokens": 979,
+  "results": [
+    {
+      "task_id": "3aa6fb7a",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 600,
+          "reasoning_tokens": 611,
+          "answer_tokens": 152,
+          "seconds": 4.3,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              8
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              8,
+              0,
+              0
+            ],
+            [
+              1,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44d8ac46",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 2722,
+          "reasoning_tokens": 324,
+          "answer_tokens": 451,
+          "seconds": 4.1,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              5,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              2,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              2,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44f52bb0",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 1101,
+          "answer_tokens": 8,
+          "seconds": 5.7,
+          "predicted": [
+            [
+              1
+            ]
+          ],
+          "error": null
+        },
+        {
+          "test_index": 1,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 980,
+          "answer_tokens": 8,
+          "seconds": 7.1,
+          "predicted": [
+            [
+              7
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "025d127b",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 1102,
+          "reasoning_tokens": 243,
+          "answer_tokens": 328,
+          "seconds": 4.5,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "0520fde7",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 342,
+          "reasoning_tokens": 1866,
+          "answer_tokens": 32,
+          "seconds": 7.4,
+          "predicted": [
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

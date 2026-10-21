@@ -1,0 +1,193 @@
+{
+  "label": "exp_1020_2043",
+  "timestamp": "2026-10-20T20:57:24",
+  "provider": "google",
+  "model": "gemini-3.5-flash",
+  "reasoning": "medium",
+  "wait_seconds": 10.0,
+  "tasks_solved": 3,
+  "tasks_total": 5,
+  "input_tokens": 1518,
+  "reasoning_tokens": 9042,
+  "answer_tokens": 236,
+  "results": [
+    {
+      "task_id": "3aa6fb7a",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 600,
+          "reasoning_tokens": 3317,
+          "answer_tokens": 169,
+          "seconds": 16.0,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              8
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              8,
+              0,
+              0
+            ],
+            [
+              1,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44d8ac46",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 110.8,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    },
+    {
+      "task_id": "44f52bb0",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 1580,
+          "answer_tokens": 13,
+          "seconds": 11.0,
+          "predicted": [
+            [
+              1
+            ]
+          ],
+          "error": null
+        },
+        {
+          "test_index": 1,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 2502,
+          "answer_tokens": 13,
+          "seconds": 51.1,
+          "predicted": [
+            [
+              7
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "025d127b",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 80.7,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    },
+    {
+      "task_id": "0520fde7",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 342,
+          "reasoning_tokens": 1643,
+          "answer_tokens": 41,
+          "seconds": 87.3,
+          "predicted": [
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "label": "exp_1020_1751",
+  "timestamp": "2026-10-20T18:05:46",
+  "provider": "google",
+  "model": "gemini-3.5-flash",
+  "reasoning": "medium",
+  "tasks_solved": 1,
+  "tasks_total": 5,
+  "input_tokens": 600,
+  "reasoning_tokens": 3178,
+  "answer_tokens": 169,
+  "results": [
+    {
+      "task_id": "3aa6fb7a",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 600,
+          "reasoning_tokens": 3178,
+          "answer_tokens": 169,
+          "seconds": 26.3,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              8
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              8,
+              0,
+              0
+            ],
+            [
+              1,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44d8ac46",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 103.6,
+          "predicted": null,
+          "error": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+        }
+      ]
+    },
+    {
+      "task_id": "44f52bb0",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 73.7,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        },
+        {
+          "test_index": 1,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 73.4,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    },
+    {
+      "task_id": "025d127b",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 73.4,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    },
+    {
+      "task_id": "0520fde7",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 73.5,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    }
+  ]
+}

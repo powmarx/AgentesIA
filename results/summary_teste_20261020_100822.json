@@ -1,0 +1,305 @@
+{
+  "label": "teste",
+  "timestamp": "2026-10-20T10:08:22",
+  "provider": "google",
+  "model": "gemini-3.5-flash-lite",
+  "reasoning": "high",
+  "tasks_solved": 3,
+  "tasks_total": 3,
+  "input_tokens": 3898,
+  "reasoning_tokens": 22342,
+  "answer_tokens": 659,
+  "results": [
+    {
+      "task_id": "3aa6fb7a",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 600,
+          "reasoning_tokens": 4495,
+          "answer_tokens": 169,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              8
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              8,
+              0,
+              0
+            ],
+            [
+              1,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "44d8ac46",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 2722,
+          "reasoning_tokens": 8202,
+          "answer_tokens": 464,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              5,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "44f52bb0",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 4254,
+          "answer_tokens": 13,
+          "predicted": [
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "test_index": 1,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 5391,
+          "answer_tokens": 13,
+          "predicted": [
+            [
+              7
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

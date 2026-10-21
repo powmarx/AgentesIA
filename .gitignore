@@ -1,0 +1,13 @@
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Terminal logs of local runs (temporary). The experiment results in results/
+# (live_*.jsonl and summary_*.json) ARE versioned: they are what the published,
+# read-only app shows.
+results/run_*.log

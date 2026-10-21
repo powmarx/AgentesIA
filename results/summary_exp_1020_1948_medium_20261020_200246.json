@@ -1,0 +1,463 @@
+{
+  "label": "exp_1020_1948",
+  "timestamp": "2026-10-20T20:02:46",
+  "provider": "google",
+  "model": "gemini-3.5-flash",
+  "reasoning": "medium",
+  "wait_seconds": 10.0,
+  "tasks_solved": 3,
+  "tasks_total": 5,
+  "input_tokens": 4712,
+  "reasoning_tokens": 20778,
+  "answer_tokens": 1202,
+  "results": [
+    {
+      "task_id": "3aa6fb7a",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 600,
+          "reasoning_tokens": 2715,
+          "answer_tokens": 403,
+          "seconds": 50.5,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              8
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              8,
+              0,
+              0
+            ],
+            [
+              1,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44d8ac46",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 2722,
+          "reasoning_tokens": 6202,
+          "answer_tokens": 464,
+          "seconds": 29.5,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              5,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              2,
+              2,
+              2,
+              5,
+              0,
+              0,
+              5,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "44f52bb0",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 288,
+          "reasoning_tokens": 2577,
+          "answer_tokens": 7,
+          "seconds": 13.8,
+          "predicted": [
+            [
+              1
+            ]
+          ],
+          "error": null
+        },
+        {
+          "test_index": 1,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 79.2,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    },
+    {
+      "task_id": "025d127b",
+      "solved": true,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": true,
+          "input_tokens": 1102,
+          "reasoning_tokens": 9284,
+          "answer_tokens": 328,
+          "seconds": 128.0,
+          "predicted": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "task_id": "0520fde7",
+      "solved": false,
+      "tests": [
+        {
+          "test_index": 0,
+          "correct": false,
+          "input_tokens": 0,
+          "reasoning_tokens": 0,
+          "answer_tokens": 0,
+          "seconds": 92.9,
+          "predicted": null,
+          "error": "Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+        }
+      ]
+    }
+  ]
+}
